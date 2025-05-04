@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Result files: data, plots, models
+*.npy
+*.npz
+*.csv
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
