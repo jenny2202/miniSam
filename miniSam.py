@@ -7,7 +7,7 @@ import logging
 import numpy as np
 import math
 from warnings import warn
-from typing import Tuple
+from typing import Tuple, Optional
 
 
 class MiniSam:
@@ -18,10 +18,10 @@ class MiniSam:
         x: int,
         y: int,
         input_len: int,
-        sigma: float | None = None,
+        sigma: Optional[float] = None,
         learning_rate: float = 0.5,
         neighborhood_function: str = "gaussian",
-        random_seed: int | None = None,
+        random_seed: Optional[int] = None,
     ):
         """
         Initializes a Self Organizing Map.
