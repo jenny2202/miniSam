@@ -1,6 +1,6 @@
 # MiniSam SOM Visualization
 
-This project provides a simple Self-Organizing Map (SOM) implementation (`miniSam.py`) and a script to visualize the U-Matrix heatmap of a trained SOM on synthetic data.
+This project provides a simple Self-Organizing Map (SOM) implementation (`miniSam.py`), a script to visualize the U-Matrix heatmap of a trained SOM on synthetic data and top 5 recommendation explained in `Improvement_Analysis.ipynb`.
 
 ## Prerequisites
 
